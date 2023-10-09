@@ -6,8 +6,8 @@ POST https://localhost:7284/prova/funcionario/cadastrar
 Content-Type: application/json
 
 {
-    "nome": "ovo",
-    "cpf" : "12345676"
+    "nome": "Seu nome",
+    "cpf" : "12345678912"
 }
 
 ### Obtenção de todos os funcionários
@@ -21,25 +21,14 @@ Content-Type: application/json
 
 {
     "valor": 50,
-    "quantidade" : 100,
+    "quantidade" : 1000,
     "mes" : 10,
     "ano" : 2023,
-    "funcionarioId" : 5
+    "funcionarioId" : 1
 }
 
 ### Obtenção de todas as folhas
 GET https://localhost:7284/prova/folha/listar
 
-###
-PUT https://localhost:7284/prova/funcionario/editar/2
-Content-Type: application/json
-
-{
-    "Id": 2,
-    "nome": "testinho",
-    "cpf" : "12345678916"
-}
-
-
 ### Obtenção de uma folha
-GET https://localhost:7284/prova/folha/listar/12345676/10/2023
+GET https://localhost:7284/prova/folha/listar/12345678912/10/2023

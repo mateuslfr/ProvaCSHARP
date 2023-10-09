@@ -10,7 +10,7 @@ using Prova.Data;
 namespace Prova.Migrations
 {
     [DbContext(typeof(AppDataContext))]
-    [Migration("20231009225232_Migracao1")]
+    [Migration("20231009233008_Migracao1")]
     partial class Migracao1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
