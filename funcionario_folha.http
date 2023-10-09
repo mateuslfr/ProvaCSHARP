@@ -21,7 +21,7 @@ Content-Type: application/json
 
 {
     "valor": 50,
-    "quantidade" : 1000,
+    "quantidade" : 100,
     "mes" : 10,
     "ano" : 2023,
     "funcionarioId" : 1
